@@ -1,1 +1,1 @@
-Shell basics
+Shell is hard
