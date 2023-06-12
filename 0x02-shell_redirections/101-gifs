@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -exec basename {} \; | sed 's/\.gif$//' | LC_ALL=C sort -f | uniq | while read -r file; do echo "$file"; done
+find . -type f -iname "*.gif" -exec basename -s .gif {} \; | sort -f
